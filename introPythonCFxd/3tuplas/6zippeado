@@ -1,0 +1,29 @@
+lista = [1, 2, 3, 4, 5]
+tupla = (10, 20, 30, 40, 50)
+
+result = zip(lista, tupla)
+
+print(result)
+print(type(result))
+
+result = tuple(result)
+print(result)
+print(type(result))
+
+lista_2 = [100, 200, 300, 400, 500]
+
+result = zip(lista, tupla, lista_2)
+result = tuple(result)
+print(result)
+print(type(result))
+
+
+print("CHEK")
+lista = [1, 2, 3, 4, 5, 6, 7]
+print("Lista: ",lista)
+result = zip(lista, tupla, lista_2)
+result = tuple(result)
+print(result)
+print(type(result))
+#Los elementos restantes no son tomados en cuenta
+#La combinación debe ser exacta, o se omiten
