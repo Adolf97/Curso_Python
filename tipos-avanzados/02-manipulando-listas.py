@@ -1,5 +1,6 @@
 mascotas = ["Wolfgang", "Pelusa", "Pulga", "Copito"]
-print(mascotas)
 mascotas[0] = "Bicho"
-print(mascotas)
-print(mascotas[0:3])
+
+numeros = list(range(21))
+print(numeros[1::2])
+print(numeros[::2])
